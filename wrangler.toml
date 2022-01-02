@@ -1,0 +1,21 @@
+name = "b2-serve-example" 
+type = "webpack"
+
+compatibility_date = "2021-12-01"
+
+# Your Cloudflare account ID
+# ccount_id = ""
+
+workers_dev = true
+
+# Your Cloudflare zone id for a domain
+# zone_id = ""
+# a route within the zone_id
+# routes = [""]
+
+[vars]
+
+B2_ACCESS_KEY_ID = ""
+B2_SECRET_ACCESS_KEY = ""
+B2_DEFAULT_REGION = "us-west-00x"
+B2_S3_BUCKET = "https://bucket-name.s3.us-west-00x.backblazeb2.com"
